@@ -1,0 +1,61 @@
+Roles & Responsibilities – Junior Middleware Integration Engineer
+
+1. Ensures Operational Continuity of Middleware Applications
+ - Monitors performance and stability of middleware platforms used in production environments.
+ - Manages application uptime and proactively mitigates risks that may lead to downtime.
+ - Configures alerting mechanisms and log monitors for real-time system health insights.
+ - Coordinates with infrastructure teams to plan and execute maintenance windows without business disruption.
+
+2. Executes Seamless Integration Between Frontend and Backend Systems
+ - Facilitates the flow of structured data between client interfaces (React.js) and backend services (Node.js, PostgreSQL).
+ - Develops middleware logic that bridges REST APIs with databases to ensure data persistence and integrity.
+ - Maintains version control and modular architecture for scalable middleware logic.
+ - Addresses integration gaps or sync delays between data entry points and backend storage layers.
+
+3. Designs and Deploys Workflow Automation Solutions
+ - Implements automation scripts using Python and SQL to reduce manual intervention across data operations.
+ - Automates barcode and QR code mapping processes to align with production timelines.
+ - Triggers automated alerts and data push notifications across systems to streamline user workflows.
+ - Continuously refines scripts and routines to reduce errors, time, and resource consumption.
+
+4. Manages and Verifies QR/Barcode Generation and Assignment
+ - Oversees generation of QR codes and barcodes assigned to individual batches, product cases, or item series.
+ - Validates code-to-product mappings to ensure correct associations in line with production batches.
+ - Prevents duplication, mislabeling, or untracked inventory through robust verification checkpoints.
+ - Coordinates with production teams to align code generation timelines with manufacturing cycles.
+
+5. Delivers First-Line Support and Troubleshooting of Middleware Systems
+ - Identifies and resolves application faults, system bottlenecks, and unexpected behavior during live production.
+ - Uses logs, analytics, and console diagnostics to isolate issues and recommend permanent fixes.
+ - Engages development teams for code-level intervention when application anomalies persist.
+ - Documents resolution steps and integrates learning into team-wide knowledge bases.
+
+6. Maintains and Audits Production Databases
+ - Performs routine health checks, indexing, and query optimization in PostgreSQL and MongoDB databases.
+ - Validates data integrity, correcting inconsistencies found during barcode mapping or system reconciliation.
+ - Builds custom queries and stored procedures to support advanced reporting and data manipulation.
+ - Ensures database performance under high data volumes through regular maintenance and monitoring.
+
+7. Contributes to Continuous Middleware Enhancement
+ - Evaluates current middleware architecture for improvement opportunities in speed, usability, and security.
+ - Suggests and tests new feature rollouts aligned with operational or business needs.
+ - Collaborates in Agile sprints and sprint retrospectives, contributing ideas for backlog refinement.
+ - Benchmarks performance post-updates to ensure enhancements lead to measurable outcomes.
+
+8. Executes Middleware Testing and Validation Protocols
+ - Participates in integration and regression testing for middleware releases and patches.
+ - Simulates real-world use cases to validate new feature behavior under production-like conditions.
+ - Prepares test plans and collaborates with QA teams to finalize release readiness.
+ - Logs defects, tracks resolution progress, and supports retesting for closure.
+
+9. Engages in Multi-Disciplinary Collaboration
+ - Coordinates with development, production, QA, and IT support to align middleware functionality with end-user needs.
+ - Participates in daily stand-ups, weekly syncs, and interdepartmental checkpoints.
+ - Provides technical support during implementation of new hardware/software that interacts with the middleware layer.
+ - Supports production teams with middleware tool training and system understanding.
+
+10. Maintains Documentation, Logs, and Compliance Readiness
+ - Updates middleware system documentation including architecture diagrams, SOPs, and technical references.
+ - Tracks incidents, fixes, and system updates in well-organized logs for audit readiness.
+ - Aligns middleware configurations and changes with internal IT policies and external regulatory standards.
+ - Assists in periodic internal and external audits by providing necessary data and procedural clarity.
