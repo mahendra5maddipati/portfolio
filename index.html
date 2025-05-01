@@ -153,6 +153,39 @@
   <footer class="text-center text-sm text-gray-400 py-6">
     &copy; 2025 Mahendra Maddipati. Built in silence, made for truth.
   </footer>
+  <div x-data="popupCycle()" x-init="start()" class="z-50">
+    <!-- Pop-up Banner -->
+    <div 
+      x-show="visible"
+      x-transition
+      class="fixed bottom-4 right-4 bg-yellow-200 text-yellow-900 px-4 py-3 rounded shadow-lg flex items-center space-x-2"
+      style="display: none;"
+    >
+      <span class="text-2xl">🐢</span>
+      <p class="text-sm font-semibold">This site is in development stage</p>
+    </div>
+  </div>
 
+  <script>
+    function popupCycle() {
+      return {
+        visible: false,
+        start() {
+          this.showTemporarily()
+        },
+        showTemporarily() {
+          setTimeout(() => {
+            this.visible = true
+            setTimeout(() => {
+              this.visible = false
+              this.showTemporarily()  // Restart loop
+            }, 5000) // Banner stays visible for 5 sec
+          }, 3000)   // Appears every 10 seconds
+        }
+      }
+    }
+  </script>
+  
+  
 </body>
 </html>
